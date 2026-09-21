@@ -1,0 +1,12 @@
+{
+  "_comment": "Public material only - NO private keys. Copy to node_config.json and fill in.",
+  "root_pub_b64": "<ROOT_PUB_B64 from Step 1>",
+  "orion_key": "keys/provider.pem",
+  "orion_pub_b64": "<PROVIDER_PUB_B64 from Step 2>",
+  "known_agents": {
+    "ag:REQUESTER_AGENT_ID": "<REQUESTER_PUB_B64 from Step 3>"
+  },
+  "bind_host": "127.0.0.1",
+  "bind_port": 8081,
+  "ollama_model": "qwen2.5:7b"
+}

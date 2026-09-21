@@ -1,0 +1,56 @@
+{
+  "environment": {
+    "cpu": "12th Gen Intel(R) Core(TM) i7-1255U",
+    "python": "3.12.3",
+    "cryptography_version": "49.0.0",
+    "os": "Linux-6.8.0-51-generic-x86_64-with-glibc2.39"
+  },
+  "keygen": {
+    "ops_per_sec": 37119.51935906196,
+    "n": 2000,
+    "elapsed_s": 0.053880007999396184
+  },
+  "sign_verify": {
+    "request_bytes": 1160,
+    "sign_ops_per_sec": 33932.06231060478,
+    "verify_ops_per_sec": 11673.056159097943
+  },
+  "pipeline_latency_us": {
+    "n": 5000,
+    "median": 236.49599961572676,
+    "p95": 276.73000022332417,
+    "p99": 323.1860000596498,
+    "min": 189.43000031867996,
+    "max": 514.1910005477257
+  },
+  "pipeline_throughput_single_threaded_ops_per_sec": 4228.401332897222,
+  "replay_cache_scaling": {
+    "100": {
+      "check_ops_per_sec": 86066.00057328759,
+      "avg_check_latency_us": 11.618989999988116,
+      "rss_kb_after_fill": 28160,
+      "rss_delta_kb_vs_before_fill": 0
+    },
+    "10000": {
+      "check_ops_per_sec": 5097.562373705725,
+      "avg_check_latency_us": 196.1721950001447,
+      "rss_kb_after_fill": 28672,
+      "rss_delta_kb_vs_before_fill": 512
+    },
+    "100000": {
+      "check_ops_per_sec": 457.2994617737404,
+      "avg_check_latency_us": 2186.750879000101,
+      "rss_kb_after_fill": 38860,
+      "rss_delta_kb_vs_before_fill": 9804
+    }
+  },
+  "e2e_inprocess": {
+    "requests_per_sec_single_threaded": 2551.1280371306816,
+    "n": 2000,
+    "elapsed_s": 0.7839669240001967
+  },
+  "credential_sizes_bytes": {
+    "passport_canonical": 206,
+    "passport_json_wire": 226
+  }
+}
