@@ -1,4 +1,4 @@
-# agentframe
+# agent-mandate
 
 **Let your AI agents talk to each other — across vendors, across machines, across networks —
 without sharing a single credential.**
@@ -52,12 +52,15 @@ verification pipeline you can read in an afternoon.
 ## Install
 
 ```bash
-git clone https://github.com/zafbangash/agentframe.git
-cd agentframe
+git clone https://github.com/zafbangash/agent-mandate.git
+cd agent-mandate
 python -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 pytest -q          # expect: 54 passed
 ```
+
+The Python package is named `agentframe` (that is what you `import`); the project and repo are
+`agent-mandate`.
 
 If those 54 tests pass, the crypto, passport, replay, and injection layers all work on your box.
 
